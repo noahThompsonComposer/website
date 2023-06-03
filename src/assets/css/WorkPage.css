@@ -1,0 +1,44 @@
+.workpage-header {
+    display: flex;
+    margin: 50px 12%;
+}
+
+.workpage-header--title {
+    margin-right: auto;
+}
+
+.workpage-buttons {
+    margin-top: 50px;
+}
+
+.workpage-button {
+    margin: 10px 10px;
+}
+
+.workpage-header--h1 {
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.workpage-programnotes {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 25%;
+    padding-bottom: 60px;
+}
+
+.workpage-programnotes--table-container {
+    display: flex;
+    align-items: center;
+}
+
+.workpage-programnotes--table-title {
+    margin-right: auto;
+    font-size: 16px;
+    max-width: 75%;
+}
+
+.workpage-programnotes--table-content {
+    text-align: right;
+    list-style: none;
+}

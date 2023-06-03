@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+}
+
+p {
+    font-size: 16px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+button {
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background: #dbdbdb;
+}

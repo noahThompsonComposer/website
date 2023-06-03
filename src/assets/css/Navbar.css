@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 38px;
+    background: #2D3849;
+    filter: drop-shadow(0 2px 5px #474747)
+}
+
+.nav--title {
+    margin-right: auto;
+}
+
+.nav--links {
+    display: flex;
+}
+
+.nav--link {
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav--link::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav--link:hover::before {
+    transform: scaleX(1);
+}
+
+.nav--link, .nav--title {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-h2 {
+    font-weight: bold;
+}
+
+.nav-h3 {
+    font-weight: normal;
+}
