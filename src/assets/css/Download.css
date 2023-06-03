@@ -1,0 +1,14 @@
+.download-button {
+    margin: 5px;
+}
+
+.download-h2, .download-p {
+    text-align: center;
+}
+
+.scores, .parts, .alt-parts, .alt-scores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 25%;
+}
