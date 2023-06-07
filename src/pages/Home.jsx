@@ -34,9 +34,9 @@ export default function Home() {
                 <div className="home-news">
                     {Object.entries(news).map(([newsKey, newsValue]) => (
                         <AnimateOnScroll animationClass="home-news-animation">
-                            <div className="news-item">
-                                <a href={newsValue.imgLink} target="_blank"><img src={newsValue.imgUrl} className="news-img"/></a>
-                                <div><span><b>{newsValue.date}</b></span></div>
+                            <div key={newsKey} className="news-item">
+                                <a key={newsKey} href={newsValue.imgLink} target="_blank"><img src={newsValue.imgUrl} className="news-img"/></a>
+                                <div key={newsKey}><span key={newsKey}><b>{newsValue.date}</b></span></div>
                                 <p>{newsValue.content}</p>
                                 <AnimateOnScroll animationClass="home-hr-animation">
                                 <hr />

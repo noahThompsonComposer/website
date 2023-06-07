@@ -34,7 +34,7 @@ export default function About() {
                     <p>{info.commissions.content}</p>
                     <ul>
                         {Object.entries(info.commissions.listItems).map(([itemKey, itemValue]) => (
-                            <li>{itemValue}</li>
+                            <li key={itemKey}>{itemValue}</li>
                         ))}
                     </ul>
                     <p>List of commissioned works:</p>
@@ -61,7 +61,7 @@ export default function About() {
                     </AnimateOnScroll>
                     {Object.entries(bio).map(([bioKey, bioValue]) => (
                         <AnimateOnScroll animationClass="bio-section-animation">
-                            <div className="bio-section">
+                            <div key={bioKey} className="bio-section">
                                 <h2>{bioValue.id}</h2>
                                 <p>{bioValue.content}</p>
                             </div>

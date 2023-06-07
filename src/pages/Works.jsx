@@ -35,7 +35,7 @@ export default function Works() {
                 placeholder="Search works by Noah Thompson..."
                 />
                 {Object.entries(filteredWorks).map(([workKey, workValue]) => (
-                    <div className="item">
+                    <div key={workKey} className="item">
                         <Link to={`/works/${workValue.routingOpus}`} className="link">
                             <h3>{workValue.title}</h3>
                             <p>{workValue.blurb}</p>
