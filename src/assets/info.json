@@ -1,0 +1,17 @@
+{
+    "commissions": {
+        "content": "To commission a piece of music, please reach out to me at noahjkthompsonmusic@gmail.com. In your email, please include:",
+        "listItems": [
+            "Name of the person(s), group, or organization commissioning the piece.",
+            "The instrumentation you would like the piece to be for.",
+            "Time and date of the performance, if applicable.",
+            "What the commission is for, or what the piece should be about.",
+            "Contact info of the person(s) involved in the commission.",
+            "The desired length of the piece.",
+            "Any other relevant information."
+        ]
+    },
+    "copyright": {
+        "content": "All music and content is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license. This essentially means you are free to do what you please with my work, except you must always give credit to me as the original contentent creator. For more info on this license you can visit"
+    }
+}

@@ -1,0 +1,71 @@
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes stretch-in {
+    0% {
+        transform: scaleX(0)
+    }
+    50% {
+        transform: scaleX(0)
+    }
+    100% {
+        transform: scaleX(1)
+    }
+}
+
+.about {
+    margin: 5% 12%;
+}
+
+.about > section {
+    margin: 50px 0;
+}
+
+.about-main-title, .contact-section, .commissions, .about > nav {
+    animation: fade-in 4s;
+}
+
+.bio-title, .about-main-title {
+    font-family: 'Times New Roman';
+    font-size: 48px;
+    margin: 0;
+}
+
+.bio-title-animation {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.bio-title-animation.animate {
+    opacity: 1;
+}
+
+.bio-section-animation {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.bio-section-animation.animate {
+    opacity: 1;
+}
+
+.about-hr {
+    animation: stretch-in 4s;
+}
+
+.about-hr-style {
+    height: 5px;
+    background-color: #dbdbdb;
+}
+
+.about-hr-animation {
+    transform: scaleX(0);
+    transition: transform 4s;
+}
+
+.about-hr-animation.animate {
+    transform: scaleX(1);
+}
