@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import Navbar from '../assets/components/Navbar'
 import Footer from '../assets/components/Footer'
 import AnimateOnScroll from '../assets/components/AnimateOnScroll'
-import bio from '../assets/bio.json'
-import works from '../assets/works.json'
-import info from '../assets/info.json'
+import bio from '../assets/json/bio.json'
+import works from '../assets/json//works.json'
+import info from '../assets/json/info.json'
 import '../assets/css/About.css'
 
 export default function About() {

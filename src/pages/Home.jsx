@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../assets/components/Navbar'
 import Footer from '../assets/components/Footer'
 import AnimateOnScroll from '../assets/components/AnimateOnScroll'
-import news from '../assets/news.json'
+import news from '../assets/json/news.json'
 import '../assets/css/Home.css'
 
 export default function Home() {

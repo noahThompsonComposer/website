@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import Navbar from '../assets/components/Navbar'
 import PieceNotFound from '../assets/components/PieceNotFound'
 import Footer from '../assets/components/Footer'
-import works from '../assets/works.json'
+import works from '../assets/json/works.json'
 import '../assets/css/WorkPage.css'
 
 export default function WorkPage() {
