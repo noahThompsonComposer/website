@@ -1,5 +1,10 @@
 [
     {
+        "id": 2,
+        "content": "Newly refurbished website just launched!",
+        "date": "6 June 2023"
+    },
+    {
         "id": 1,
         "content": "Slavic Rhapsody will be performed by the Pheonix Youth Symphony's Philharmonic Orchestra on April 24th and April 30th, 2023.",
         "date": "8 March 2023",

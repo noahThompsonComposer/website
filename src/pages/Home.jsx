@@ -38,6 +38,9 @@ export default function Home() {
                                 <a href={newsValue.imgLink} target="_blank"><img src={newsValue.imgUrl} className="news-img"/></a>
                                 <div><span><b>{newsValue.date}</b></span></div>
                                 <p>{newsValue.content}</p>
+                                <AnimateOnScroll animationClass="home-hr-animation">
+                                <hr />
+                                </AnimateOnScroll>
                             </div>
                         </AnimateOnScroll>
                     ))}
