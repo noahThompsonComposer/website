@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../assets/components/Navbar'
 import Footer from '../assets/components/Footer'
-import works from '../assets/data'
+import works from '../assets/works.json'
 import '../assets/css/Works.css'
 
 export default function Works() {
