@@ -222,7 +222,7 @@
         "id": 4,
         "routingOpus": "op4",
         "opus": "4",
-        "number": null,
+        "number": "2",
         "title": "Serenade in C Major",
         "year": "2021",
         "premiere": "None",
