@@ -604,5 +604,36 @@
                 "partUrl": "/pdf/op7/horn2Reduc.pdf"
             }
         }
+    },
+    {
+        "id": 9,
+        "routingOpus": "op9",
+        "opus": "9",
+        "number": "1",
+        "title": "Clarinet Sonata",
+        "year": "2023",
+        "premiere": "None",
+        "isCommission": true,
+        "dedication": "Grady Newsum",
+        "youtubeId": "cknD7U5r2Eg",
+        "imslpUrl": "https://imslp.org/wiki/Clarinet_Sonata_No.1%2C_Op.9_(Thompson%2C_Noah_JohnKarl)",
+        "length": "5'",
+        "instrumentation": "clarinet and piano",
+        "blurb": "Short sonata for clarinet with optional piano accompaniment.",
+        "programNote": "This clarinet sonata was commissioned by clarinetist Grady Newsum, a clarinet performance major at the Arizona State University School of Music, Dance, and Theatre. When prompted about the piece, Newsum responded “Make it weird.” Hence, this piece marks a deviation from Thompson's typical neo-romantic style and explores more progressive harmony. The third section in the sonata, titled “Schöenberg,” is named not after of an imitation of Schöenberg’s music—albeit this section is Thompson’s introduction to atonal composition created using a very loose 12-tone technique—but rather of Newsum’s infatuation with progressive and interesting harmonies, of which Schöenberg’s name often came up in conversation. When Newsum first commissioned this piece, he asked for it to be for solo clarinet alone. However, Thompson added the optional piano accompaniment to make the piece eligible for the 2024 NYCC Composium. This presented a unique challenge of in a sense creating two pieces, an accompanied sonata, and an acapella solo.",
+        "instruments": [
+            "Clarinet",
+            "Optional piano accompaniment"
+        ],
+        "scores": {
+            "fullScore": {
+                "scoreTitle": "Full Score",
+                "scoreUrl": "/pdf/op9/score.pdf"
+            },
+            "clarinet": {
+                "scoreTitle": "Clarinet (B-flat)",
+                "scoreUrl": "/pdf/op9/clarinet.pdf"
+            }
+        }
     }
 ]
